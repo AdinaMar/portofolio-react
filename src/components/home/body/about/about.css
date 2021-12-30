@@ -1,0 +1,43 @@
+.about {
+  padding-top: 65px;
+}
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pic {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+}
+.about-info {
+  font-size: 24px;
+}
+
+.name {
+  color: crimson;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic {
+    height: 250px;
+    width: 250px;
+  }
+
+  .about-info {
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+  .name {
+    font-size: 26px;
+  }
+}
