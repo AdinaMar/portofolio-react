@@ -15,7 +15,7 @@ function Contact() {
                 <Social />
             </div>
             <div className="download">
-                <a download href={require("../../../data/CVenglish.pdf")}>
+                <a download href={require("../../../data/Adina_Martiniuc_CV.pdf")}>
                    <AiOutlineCloudDownload  className="ia" size="30px" color="black" />    
                 Download CV
                 </a>

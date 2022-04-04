@@ -1,10 +1,30 @@
 import Router from './img/Router.PNG';
 import portofolio from './img/portofolio.PNG';
 import signs from './img/signs.PNG';
+import osf from './img/osf.PNG';
+import capture from './img/Capture.PNG';
 
 
 
 export const ProjectData = [
+    {
+        id: 4,
+        title:"OSF Academy",
+        about:"Recreated an e-commerce web-page following FSD provided.",
+        tags:["Javascript", "HTML5", "SCSS"],
+        demo:"https://osf-academyproject-adina.netlify.app/",
+        github:"https://github.com/AdinaMar/OSF-Academy-Project",
+        image: require('./img/osf.PNG'),
+    },
+    {
+        id: 5,
+        title:"Tech Challenge",
+        about:"Together with a team, we created an office-space management web-page",
+        tags:["React"],
+        demo:"/",
+        github:"https://github.com/AdinaMar/innovativeminds",
+        image: require('./img/Capture.PNG'),
+    },
     {
         id: 1,
         title:"Zodiacs",
