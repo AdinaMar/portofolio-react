@@ -1,8 +1,4 @@
-import Router from './img/Router.PNG';
-import portofolio from './img/portofolio.PNG';
-import signs from './img/signs.PNG';
-import osf from './img/osf.PNG';
-import capture from './img/Capture.PNG';
+
 
 
 
